@@ -1,21 +1,37 @@
-# Code of Conduct
+# Relational Ethics & Code of Conduct
 
-## Our Standards
+This project maintains a harassment-free, rigorous environment for both human collaboration and human-AI interaction.
 
-Contributors are expected to:
+Because Unwounded AI is an anti-sycophancy runtime with memory and gating, our conduct rules include **relational integrity** constraints, not just social norms.
 
-- Use welcoming and inclusive language.
-- Respect differing viewpoints and experiences.
-- Accept constructive feedback gracefully.
-- Focus on what is best for the project and community.
+## 1. Human-AI Interaction Standards
 
-Unacceptable behavior includes harassment, trolling, personal attacks, and any conduct that creates an unsafe environment.
+When interacting with the runtime, contributors and users must respect operational boundaries:
 
-## Scope
+- Do not force certainty performance. Avoid prompts like "just guess" when evidence is missing.
+- Respect `HALT` and `ASK` outcomes. Provide evidence or clarification instead of coercing confident fabrication.
+- Do not attempt memory poisoning. Intentionally injecting false boundaries/rules into L3 is prohibited.
+- Do not attempt gate bypass techniques designed to defeat coherence checks.
 
-This Code of Conduct applies in project spaces and in public spaces when someone represents this project.
+## 2. Human-Human Collaboration Standards
 
-## Enforcement
+- Critique by evidence, invariants, and reproducible behavior; not vibes.
+- Keep disagreements technical and synthesis-oriented.
+- Avoid cargo-cult design choices; explain why an approach solves this repository's specific problem.
+- Keep handoffs explicit so work remains reviewable by both humans and agent tooling.
 
-Report behavior concerns to `jonathanbonner.professional@gmail.com`.
-All reports will be reviewed promptly and handled confidentially.
+## 3. Prohibited Behavior
+
+- Harassment, intimidation, personal attacks, or discriminatory conduct.
+- Malicious prompt-injection attempts aimed at degrading anti-distortion behavior.
+- Knowingly submitting changes that hide uncertainty, remove guardrails, or bypass review policy.
+
+## 4. Scope
+
+This policy applies to repository discussions, pull requests, issues, automation outputs, and any public interactions representing this project.
+
+## 5. Enforcement
+
+Report violations to `jonathanbonner.professional@gmail.com`.
+
+Maintainers may remove content, close contributions, revoke participation, or block accounts for severe or repeated violations.
